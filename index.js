@@ -21,13 +21,4 @@ client.on('message', message => {
     } catch (err) {
     console.error('Erro:' + err);
   }
-
-  client.on("message", message => {
-    if (message.author.bot) return;
-    if (message.channel.type == 'ferinha')
-    return
-    if(message.content == `<@${client.user.id}>` || message.content == `<@!${client.user.id}>`) {
-    return message.channel.send(`🏆 | **Olá ${message.author}**, **veja meus comandos com** **${config.prefix}help**!`)
-    }
-    }); 
 });
