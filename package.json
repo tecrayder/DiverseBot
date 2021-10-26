@@ -1,0 +1,19 @@
+{
+  "name": "bot-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "jimp": "^0.16.1",
+    "mcping": "^1.1.5",
+    "ms": "^2.1.3",
+    "quick.db": "^7.1.3",
+    "weather-js": "^2.0.0"
+  }
+}
