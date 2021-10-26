@@ -1,5 +1,5 @@
-const weather = require("weather-js") //npm i weather-js
-const Discord = require("discord.js") // npm i discord.js
+const weather = require("weather-js")
+const Discord = require("discord.js")
 exports.run = (client, message, args) => {
 if (args.length < 1) {
     message.channel.send("Você precisa me falar um local! [BRASILEIRO]");
